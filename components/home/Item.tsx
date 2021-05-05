@@ -20,7 +20,9 @@ export const Item: React.FC<Props> = ({ item }) => {
 
   return (
     <ItemContainer onClick={() => goDetail(item.id)}>
-      <div>img</div>
+      <div>
+        <ItemImg src="https://images.pexels.com/photos/7618308/pexels-photo-7618308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+      </div>
       <div>
         <h3>{dayjs(item.publishedDate).format('ll')}</h3>
         <p>{item.title}</p>
@@ -35,4 +37,8 @@ const ItemContainer = styled(FlexCenterContainer)`
   padding: 20px;
   border-bottom: 1px solid ${props => props.theme.colors.gray};
   cursor: pointer;
+`
+
+const ItemImg = styled.img`
+  max-width: 400px;
 `
