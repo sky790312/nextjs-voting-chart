@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="GlobalStyles__Container-sc-1m5drgn-0 frTxMm"
+  >
+    <div
+      class="TopicSection__TopicSectionContainer-m3h1n7-0 dlphWy"
+    >
+      <div>
+        <h3>
+          Today's Poll
+        </h3>
+        <p>
+          <span>
+            ll
+          </span>
+        </p>
+        <div />
+        <p>
+          total number of votes recorded: 
+        </p>
+      </div>
+      <div>
+        <canvas
+          height="150"
+          width="300"
+        />
+      </div>
+    </div>
+    <div
+      class="pages__PollListContainer-sc-1cnstz1-0 hbYZaE"
+    />
+  </div>
+</DocumentFragment>
+`;

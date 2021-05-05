@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="GlobalStyles__FlexCenterContainer-sc-1m5drgn-1 Item__ItemContainer-sc-1y9l0bo-0 cmtAKD koomDS"
+  >
+    <div>
+      img
+    </div>
+    <div>
+      <h3>
+        ll
+      </h3>
+      <p>
+        test
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

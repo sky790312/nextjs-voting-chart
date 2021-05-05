@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopicSection component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="TopicSection__TopicSectionContainer-m3h1n7-0 dlphWy"
+  >
+    <div>
+      <h3>
+        Today's Poll
+      </h3>
+      <p>
+        test
+        <span>
+          ll
+        </span>
+      </p>
+      <div>
+        <span>
+          <input
+            id="1"
+            name="0"
+            type="radio"
+            value="test answer"
+          />
+          <label
+            for="1"
+          >
+            test answer
+          </label>
+        </span>
+      </div>
+      <p>
+        total number of votes recorded: 
+      </p>
+    </div>
+    <div>
+      <canvas
+        height="150"
+        width="300"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
